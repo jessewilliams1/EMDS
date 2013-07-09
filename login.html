@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="frame-2">
+			<div id="title">System login</div>
+			<div id="sub-title-top">Please enter your credentials below:</div>
+			<div id="content-middle-centered">
+				<form method="POST" action="j_security_check">
+					<label id="form-label" for="username">Username</label>
+					<input id="form-text" type="text" name="j_username" /> <br/>
+					<label id="form-label" for="password">Password</label>
+					<input id="form-text" type="password" name="j_password" /> <br/><br/>
+					<input id="form-button" type="submit" value="Login">
+				</form>
+			</div>
+			<div id="sub-title-bottom"></div>
+		</div>
+	</body>
+</html>
